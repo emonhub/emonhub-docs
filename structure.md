@@ -5,6 +5,8 @@ The emonHub system is specifically not designed to be run directly from a cloned
 
 This is a deliberate choice to ensure that the file structure and version control specifics are not tightly coupled to running installations, which makes refactoring without breaking these installations impractical.
 
+Major structure changes are always being discussed. If you prefer to symlink or clone into /usr/share/emonhub/ that's up to you, but no guarantee is made that running `git pull` won't completely break your installation. See the various installation guides for a better way to get up and running with emonHub!
+
 ##What does what and where does it go?##
 
 Version 1 proposed filesystem:
